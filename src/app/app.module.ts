@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { LandingPageModule } from './landing-page/landing-page.module';
-import { FaceSnapsModule } from './face-snaps/face-snaps.module';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -14,8 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
-    FaceSnapsModule,
-    LandingPageModule
+    LandingPageModule,    
   ],
   bootstrap: [AppComponent]
 })
